@@ -13,10 +13,129 @@
 
 /*-------- Main Styles --------*/
 
-	
-#main {
-	width: 100%;
+
+form {
+	float: left;
+	width: 400px;
+	margin: 50px;
+	font-size: 17px;
+	border: 1px dashed;
+	display: block;
+	border-style: ridge;
+	background-color: #B9F6CA;
+	border-radius: 5px;
+	border-left-color: black;
+
+
+
 }
+
+
+section.container.results {
+	display: block;
+	width: 40%;
+	float: right;
+	border: 1px dashed;
+	margin-top: 50px;
+	margin-right: 50px;
+	border-style: ridge;
+	background-color: #FF5252;
+	text-align: center;
+	border-radius: 5px;
+	border-spacing: 30;
+	border-left-color: black;
+	padding-bottom: 20px;
+
+	
+}
+
+input#radio1 {
+	float:right;
+	margin-right: 266px;
+	margin-top: 12px;
+}
+input#radio2 {
+	float:right;
+	margin-right: 266px;
+	margin-top: 23px;
+}
+input#radio3 {
+	float:right;
+	margin-right: 266px;
+	margin-top: 30px;
+}
+
+input#check1 {
+	float:right;
+	margin-right: 266px;
+	margin-top: 11px;
+}
+
+input#check2 {
+	float:right;
+	margin-right: 266px;
+	margin-top: 11px;
+}
+
+input#check3 {
+	float:right;
+	margin-right: 266px;
+	margin-top: 11px;
+}
+
+
+.formgroup {
+	display: inline-block;
+}
+
+
+form.form {
+	padding-left: 20px;
+}
+
+
+h1 {
+	font-size: 50px;
+	font-weight: bolder;
+	margin: 30px;
+	width: 90%;
+}
+
+
+input {
+	border-radius: 5px;
+	border: 1px #CCC;
+
+}
+
+input.sub {
+	color: white;
+	float: right;
+	font-weight: bold;
+	border: white;
+	background-color: rgba(39, 208, 127, 0.5);
+	margin-right: 20px;
+	margin-bottom: 10px;
+
+    
+}
+
+input.sub:hover {
+opacity: .6;
+
+}
+
+.row {
+	line-height: 2;
+}
+
+textarea#mission {
+	border: #CCC;
+	border-radius: 1px;
+
+}
+
+
 
 
 /* 
